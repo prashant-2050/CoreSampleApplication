@@ -18,6 +18,11 @@ namespace CoreSampleApplication.Controllers
             _logger = logger;
         }
 
+        public IActionResult Validate()
+        {
+            return View();
+        }
+
         public IActionResult Index()
         {
             return View();
